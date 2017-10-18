@@ -12,9 +12,8 @@ elif [ $resposta == "r" ]; then
 
 else
 	echo "========================================================================="
-	echo "|----------------------  Nooossa, se é burro cara.  --------------------|"
 	echo "|---------------------------  É só s,p ou r!  --------------------------|"
-	echo "|----------  Tenta denovo, ou aperte Ctrl + C para encerrar  -----------|"
+	echo "|----------  Tenta denovo, ou aperte Ctrl + C para encerrar ;) ---------|"
 	echo "========================================================================="
 	sudo mysqlAcao
 fi
