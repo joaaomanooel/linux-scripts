@@ -1,2 +1,0 @@
-//Diretorios e Softwares 
-
