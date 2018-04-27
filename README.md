@@ -14,12 +14,12 @@ Inicie seu terminal (atalho costuma ser "Ctrl + Alt + 't'")
 
 ## Executar as Ações
 
-`sh linux-scripts/ação-escolhida.sh`
+* `sh linux-scripts/ação-escolhida.sh`
 
 
 ### Exemplo
 
-`sh linux-scripts/atualizar.sh`
+* `sh linux-scripts/atualizar.sh`
 
 
 ### Observações
