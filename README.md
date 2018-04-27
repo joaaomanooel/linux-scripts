@@ -24,4 +24,4 @@ Inicie seu terminal (o atalho costuma ser "Ctrl + Alt + 't'").
 
 ### Observações
 
-Algumas ações necessitam ser executadas pelo usuario root ou depende da instalação de algum pacote.
+Algumas ações necessitam ser executadas pelo usuario root ou dependem da instalação de algums pacotes.
