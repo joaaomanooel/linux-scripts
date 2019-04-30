@@ -1,20 +1,21 @@
 #!/bin/bash
-echo "Qual ação deve ser executada? (start = s | stop = p | restart = r) " 
-read resposta;
-if [ $resposta == "s" ]; then
-	sudo /etc/init.d/mysql start
 
-elif [ $resposta == "p" ]; then
-	sudo /etc/init.d/mysql stop
-
-elif [ $resposta == "r" ]; then
-	sudo /etc/init.d/mysql restart
-
-else
+responseError(){
+  echo "========================================================================="
+	echo "|----------------------  It's just 1, 2 ou 3!  -------------------------|"
+	echo "|------------- Try again, or press Ctrl + C to close :) ----------------|"
 	echo "========================================================================="
-	echo "|---------------------------  É só s,p ou r!  --------------------------|"
-	echo "|----------  Tenta denovo, ou aperte Ctrl + C para encerrar ;) ---------|"
-	echo "========================================================================="
-	sudo mysqlAcao
-fi
+}
 
+chooseAction(){
+  echo 'What action should be taken? (start = 1 | stop = 2 | restart = 3) '
+  read response;
+  case $response in
+    1) exec sudo /etc/init.d/mysql start ;;
+    2) exec sudo /etc/init.d/mysql stop ;;
+    3) exec sudo /etc/init.d/mysql restart ;;
+    *) responseError && chooseAction ;;
+  esac
+}
+
+chooseAction
