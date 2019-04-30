@@ -7,6 +7,7 @@ sudo apt-get autoremove -y
 sudo apt-get autoclean -y
 
 sudo snap refresh
+sudo npm i -g npm
 
 echo '|==============================================|'
 echo '|-------------- uhuuuuuuuu \o/ ----------------|'
