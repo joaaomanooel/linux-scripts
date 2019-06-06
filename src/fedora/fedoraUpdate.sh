@@ -11,8 +11,8 @@ sudo yum update -y
 sudo yum upgrade -y
 sudo yum clean all -y
 
-# Firefox developer
-sudo sh /opt/firefox-developer
+# Flatpack
+sudo flatpack update -y
 
 # Snap
 sudo snap refresh
