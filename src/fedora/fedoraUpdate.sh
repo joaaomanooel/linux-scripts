@@ -12,7 +12,7 @@ sudo yum upgrade -y
 sudo yum clean all -y
 
 # Flatpack
-sudo flatpack update -y
+sudo flatpak update -y
 
 # Snap
 sudo snap refresh
