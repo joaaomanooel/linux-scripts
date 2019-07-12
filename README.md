@@ -1,27 +1,60 @@
-# Scrips
+<h1 align="center">Welcome to linux-scripts :penguin:</h1>
 
-Scripts voltados para [distribuições baseadas](https://pt.wikipedia.org/wiki/Lista_de_distribui%C3%A7%C3%B5es_baseadas_no_Ubuntu) em [Debian](https://www.debian.org/index.pt.html) ou [Ubuntu](https://www.ubuntu.com/).
+<p>
+  <img src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
+</p>
 
-## Primeiro Passo
+> Scripts to make life easier on Linux.
 
-Inicie seu terminal (o atalho costuma ser "Ctrl + Alt + 't'").
+## Versioning
 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/joaaomanooel/books-api/tags).
 
-## Clonando o Repositório
+## How to use
+***Clone the project***
 
-* `git clone https://github.com/joaaomanooel/linux-scripts.git`
+```sh
+git clone https://github.com/joaaomanooel/linux-scripts
+```
 
+***Move the file*** <br/>
+##### *Example with script to update [Ubuntu](src/ubuntu/ubuntuUpdate.sh):*
 
-## Executar as Ações
+```sh
+sudo mv linux-script/src/ubuntu/ubuntuUpdate.sh /bin/ubuntuUpdate
+```
 
-* `sh linux-scripts/ação-escolhida.sh`
+***Use a script*** <br/>
+##### *Example with script to update [Ubuntu](src/ubuntu/ubuntuUpdate.sh):*
 
+```sh
+sudo ubuntuUpdate
+```
 
-### Exemplo
+> This tutorial applied to all scripts.
 
-* `sh linux-scripts/atualizar.sh`
+## Author
 
+| ![João Manoel Neto](https://avatars2.githubusercontent.com/u/17843076?v=3&s=150)|
+|:---------------------:|
+| Twitter: [@manoel_joaoo](https://twitter.com/manoel_joaoo) <br /> Github: [@joaaomanooel](https://github.com/joaaomanooel) |
 
-### Observações
+## License
 
-Algumas ações necessitam ser executadas pelo usuario root ou dependem da instalação de algums pacotes.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Contributing
+ Contributions, issues and feature requests are welcome!<br />
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+<br />Feel free to check [issues page](https://github.com/joaaomanooel/linux-scripts/issues).
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+<a href="https://www.patreon.com/linuxscripts">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
