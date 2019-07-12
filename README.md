@@ -18,14 +18,14 @@ git clone https://github.com/joaaomanooel/linux-scripts
 ```
 
 ***Move the file*** <br/>
-*Example with script to update [Ubuntu](src/ubuntu/ubuntuUpdate.sh):*
+##### *Example with script to update [Ubuntu](src/ubuntu/ubuntuUpdate.sh):*
 
 ```sh
 sudo mv linux-script/src/ubuntu/ubuntuUpdate.sh /bin/ubuntuUpdate
 ```
 
 ***Use a script*** <br/>
-*Example with script to update [Ubuntu](src/ubuntu/ubuntuUpdate.sh):*
+##### *Example with script to update [Ubuntu](src/ubuntu/ubuntuUpdate.sh):*
 
 ```sh
 sudo ubuntuUpdate
