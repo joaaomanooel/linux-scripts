@@ -11,21 +11,21 @@
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/joaaomanooel/books-api/tags).
 
 ## How to use
-**`Clone the project`**
+**Clone the project**
 
 ```sh
 git clone https://github.com/joaaomanooel/linux-scripts
 ```
 
-**`Move the file `** <br/>
-*Example with script to update Ubuntu:*
+**Move the file** <br/>
+*`Example with script to update Ubuntu:`*
 
 ```sh
 sudo mv linux-script/src/ubuntu/ubuntuUpdate.sh /bin/ubuntuUpdate
 ```
 
-**`Use a script`** <br/>
-*Example with script to update Ubuntu:*
+**Use a script** <br/>
+*`Example with script to update Ubuntu:`*
 
 ```sh
 sudo ubuntuUpdate
