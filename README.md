@@ -4,11 +4,34 @@
   <img src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> Scripts to make life easier on Linux
+> Scripts to make life easier on Linux.
 
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/joaaomanooel/books-api/tags).
+
+## How to use
+**`Clone the project`**
+
+```sh
+git clone https://github.com/joaaomanooel/linux-scripts
+```
+
+**`Move the file `** <br/>
+*Example with script to update Ubuntu:*
+
+```sh
+sudo mv linux-script/src/ubuntu/ubuntuUpdate.sh /bin/ubuntuUpdate
+```
+
+**`Use a script`** <br/>
+*Example with script to update Ubuntu:*
+
+```sh
+sudo ubuntuUpdate
+```
+
+> This tutorial applied to all scripts.
 
 ## Author
 
