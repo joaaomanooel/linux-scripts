@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to linux-scripts 👋</h1>
 <p>
-  <img src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
 > Scripts to make life easier on Linux :penguin:
