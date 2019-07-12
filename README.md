@@ -1,27 +1,28 @@
-# Scrips
+<h1 align="center">Welcome to linux-scripts 👋</h1>
+<p>
+  <img src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+</p>
 
-Scripts voltados para [distribuições baseadas](https://pt.wikipedia.org/wiki/Lista_de_distribui%C3%A7%C3%B5es_baseadas_no_Ubuntu) em [Debian](https://www.debian.org/index.pt.html) ou [Ubuntu](https://www.ubuntu.com/).
+> Scripts to make life easier on Linux :penguin:
 
-## Primeiro Passo
+## Author
 
-Inicie seu terminal (o atalho costuma ser "Ctrl + Alt + 't'").
-
-
-## Clonando o Repositório
-
-* `git clone https://github.com/joaaomanooel/linux-scripts.git`
-
-
-## Executar as Ações
-
-* `sh linux-scripts/ação-escolhida.sh`
+| ![João Manoel Neto](https://avatars2.githubusercontent.com/u/17843076?v=3&s=150)|
+|:---------------------:|
+| Twitter: [@manoel_joaoo](https://twitter.com/manoel_joaoo) <br /> Github: [@joaaomanooel](https://github.com/joaaomanooel) |
 
 
-### Exemplo
+## 🤝 Contributing
 
-* `sh linux-scripts/atualizar.sh`
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/joaaomanooel/linux-scripts/issues).
 
+## Show your support
 
-### Observações
+Give a ⭐️ if this project helped you!
 
-Algumas ações necessitam ser executadas pelo usuario root ou dependem da instalação de algums pacotes.
+<a href="https://www.patreon.com/linuxscripts">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
