@@ -1,5 +1,14 @@
-### How to create a service
+## How to install Docker
+```bash
+curl -sSL https://get.docker.com | sh
+```
 
+## How to install Portainer
+```bash
+sudo docker run -d --name portainer --privileged -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v /home/pi/data/portainer:/data portainer/portainer
+```
+
+## How to create a service
 ```bash
 cd /etc/systemd/system
 ```
