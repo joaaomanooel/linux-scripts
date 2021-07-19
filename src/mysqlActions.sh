@@ -8,7 +8,7 @@ responseError(){
 }
 
 chooseAction(){
-  echo 'What action should be taken? (start = 1 | stop = 2 | restart = 3) '
+  echo 'What action would you like to execute? (start = 1 | stop = 2 | restart = 3) '
   read response;
   case $response in
     1) exec sudo /etc/init.d/mysql start ;;
