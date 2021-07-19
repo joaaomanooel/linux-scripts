@@ -1,4 +1,7 @@
 ## How to install Docker
+
+You can use the [Docker documentation](https://docs.docker.com/get-docker) or run this command:
+
 ```bash
 curl -sSL https://get.docker.com | sh
 ```
