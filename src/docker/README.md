@@ -49,3 +49,11 @@ ___
 ```bash
 sudo systemctl disable example.service
 ```
+
+___
+
+
+> To disable your service on every reboot
+```bash
+sudo systemctl disable example.service
+```
